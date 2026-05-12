@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main(void) {
+int pointerOnPointer(void) {
     int x = 10;
     int *p = &x;
 
-    printf("X value : %d\n", 10);
+    printf("X value : %d\n", x);
     printf("P value : %p\n", p);
 
     printf("\n");
